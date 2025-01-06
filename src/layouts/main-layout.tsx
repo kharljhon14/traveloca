@@ -5,7 +5,7 @@ export default function MainLayout({ children }: PropsWithChildren) {
   return (
     <>
       <Header />
-      <main className="p-8">{children}</main>
+      <main className="m-8">{children}</main>
     </>
   );
 }

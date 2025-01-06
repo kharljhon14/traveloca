@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <header className="flex justify-between items-center py-8 px-12 shadow-sm">
+    <header className="flex justify-between items-center py-8 px-12">
       <div>
         <h1 className="font-semibold text-xl">
           <a href="">Traveloca</a>
