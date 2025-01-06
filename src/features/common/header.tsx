@@ -1,3 +1,5 @@
+import { Button } from '@/components/ui/button';
+
 export default function Header() {
   return (
     <header className="flex justify-between items-center py-8 px-12">
@@ -43,7 +45,7 @@ export default function Header() {
         </ul>
       </nav>
       <div>
-        <button>Book</button>
+        <Button>Book Now</Button>
       </div>
     </header>
   );
