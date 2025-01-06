@@ -5,8 +5,8 @@ import { useState } from 'react';
 export default function Header() {
   const [open, setOpen] = useState(false);
   return (
-    <header className=" shadow-lg">
-      <div className="py-8 px-12 flex justify-between items-center">
+    <header className="">
+      <div className="py-6 px-12 flex justify-between items-center">
         <div>
           <h1 className="font-semibold text-xl">
             <a href="">Traveloca</a>
@@ -63,7 +63,7 @@ export default function Header() {
 
       <div
         className={`w-full ${
-          open ? 'h-60' : 'h-0'
+          open ? 'h-60 border-b shadow-sm' : 'h-0'
         } overflow-hidden duration-300 transition-height static lg:hidden`}
       >
         <nav className="mt-4">
