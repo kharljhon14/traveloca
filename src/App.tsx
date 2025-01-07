@@ -7,7 +7,7 @@ function App() {
   return (
     <MainLayout>
       <Hero />
-      <div className="flex flex-col">
+      <div className="flex flex-col gap-y-8">
         <SocialLinks />
         <Partners />
       </div>
