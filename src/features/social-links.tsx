@@ -3,7 +3,7 @@ import { Facebook, Instagram, Twitter, Linkedin } from 'lucide-react';
 
 export default function SocialLinks() {
   return (
-    <div className="flex items-center justify-center border rounded-full p-2 gap-x-4">
+    <div className="flex items-center justify-center border rounded-full px-4 py-2 gap-x-4">
       <p className="text-gray-400 font-semibold">Follow</p>
       <Button
         className="rounded-full"

@@ -1,6 +1,6 @@
 export default function Partners() {
   return (
-    <figure className="grid grid-cols-2 justify-center items-center gap-y-8 lg:gap-y-0 lg:gap-x-16">
+    <figure className="grid grid-cols-2 lg:grid-cols-4 justify-center items-center gap-y-8 lg:gap-y-0 lg:gap-x-16">
       <img
         className="w-28 mx-auto"
         src="/images/logos/airbnb.png"

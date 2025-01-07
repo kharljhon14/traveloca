@@ -7,7 +7,7 @@ function App() {
   return (
     <MainLayout>
       <Hero />
-      <div className="flex flex-col gap-y-8">
+      <div className="flex flex-col lg:flex-row justify-evenly gap-y-8">
         <SocialLinks />
         <Partners />
       </div>
