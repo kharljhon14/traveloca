@@ -1,3 +1,4 @@
+import Destinations from './features/destinations';
 import Hero from './features/hero';
 import Partners from './features/partners';
 import SocialLinks from './features/social-links';
@@ -11,6 +12,7 @@ function App() {
         <SocialLinks />
         <Partners />
       </div>
+      <Destinations />
     </MainLayout>
   );
 }
