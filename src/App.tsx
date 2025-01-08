@@ -1,3 +1,4 @@
+import Booking from './features/booking';
 import Destinations from './features/destinations';
 import Hero from './features/hero';
 import Partners from './features/partners';
@@ -13,6 +14,7 @@ function App() {
         <Partners />
       </div>
       <Destinations />
+      <Booking />
     </MainLayout>
   );
 }
