@@ -20,9 +20,31 @@ export default function Destinations() {
           opts={{
             align: 'start'
           }}
-          className="w-auto mx-auto max-w-6xl"
+          className="w-auto mx-auto max-w-7xl"
         >
           <CarouselContent>
+            <CarouselItem className="md:basis-96 sm:basis-48">
+              <Card>
+                <CardHeader>
+                  <figure className="rounded-xl overflow-hidden mb-4">
+                    <img src="/images/palawan.webp" />
+                  </figure>
+                  <CardTitle>Forest Wild Life</CardTitle>
+                  <CardDescription>
+                    <div className="flex justify-between">
+                      <div className="flex items-center gap-x-1">
+                        <MapPin size={14} />
+                        <span>Philippines</span>
+                      </div>
+                      <div className="chip px-3">
+                        <Star size={12} />
+                        <span>4.7</span>
+                      </div>
+                    </div>
+                  </CardDescription>
+                </CardHeader>
+              </Card>
+            </CarouselItem>
             <CarouselItem className="md:basis-96 sm:basis-48">
               <Card>
                 <CardHeader>
