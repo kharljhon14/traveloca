@@ -2,6 +2,7 @@ import Booking from './features/booking';
 import Destinations from './features/destinations';
 import Hero from './features/hero';
 import Partners from './features/partners';
+import Promotion from './features/promotion';
 import SocialLinks from './features/social-links';
 import MainLayout from './layouts/main-layout';
 
@@ -15,6 +16,7 @@ function App() {
       </div>
       <Destinations />
       <Booking />
+      <Promotion />
     </MainLayout>
   );
 }
