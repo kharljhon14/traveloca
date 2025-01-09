@@ -6,7 +6,7 @@ export default function MainLayout({ children }: PropsWithChildren) {
   return (
     <>
       <Header />
-      <main className="m-8 space-y-16">{children}</main>
+      <main className="m-8 space-y-16 max-w-[80vw] mx-auto">{children}</main>
       <Footer />
     </>
   );
