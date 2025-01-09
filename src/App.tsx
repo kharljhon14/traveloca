@@ -2,6 +2,7 @@ import AboutUs from './features/about-us';
 import Booking from './features/booking';
 import Destinations from './features/destinations';
 import Hero from './features/hero';
+import LearnMore from './features/learn-more';
 import Partners from './features/partners';
 import Promotion from './features/promotion';
 import Reviews from './features/reviews';
@@ -23,6 +24,7 @@ function App() {
       <AboutUs />
       <Stats />
       <Reviews />
+      <LearnMore />
     </MainLayout>
   );
 }
