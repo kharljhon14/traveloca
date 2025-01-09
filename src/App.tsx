@@ -4,6 +4,7 @@ import Destinations from './features/destinations';
 import Hero from './features/hero';
 import Partners from './features/partners';
 import Promotion from './features/promotion';
+import Reviews from './features/reviews';
 import SocialLinks from './features/social-links';
 import Stats from './features/stats';
 import MainLayout from './layouts/main-layout';
@@ -21,6 +22,7 @@ function App() {
       <Promotion />
       <AboutUs />
       <Stats />
+      <Reviews />
     </MainLayout>
   );
 }
