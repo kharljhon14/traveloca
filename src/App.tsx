@@ -1,3 +1,4 @@
+import AboutUs from './features/about-us';
 import Booking from './features/booking';
 import Destinations from './features/destinations';
 import Hero from './features/hero';
@@ -17,6 +18,7 @@ function App() {
       <Destinations />
       <Booking />
       <Promotion />
+      <AboutUs />
     </MainLayout>
   );
 }
