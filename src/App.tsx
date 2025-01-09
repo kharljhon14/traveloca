@@ -5,6 +5,7 @@ import Hero from './features/hero';
 import Partners from './features/partners';
 import Promotion from './features/promotion';
 import SocialLinks from './features/social-links';
+import Stats from './features/stats';
 import MainLayout from './layouts/main-layout';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Booking />
       <Promotion />
       <AboutUs />
+      <Stats />
     </MainLayout>
   );
 }
